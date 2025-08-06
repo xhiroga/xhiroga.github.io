@@ -47,7 +47,7 @@ const graph_paper_background = '#F8F8F8';
 		<section class="projects">
 			<h2>サービス / Services</h2>
 			<div class="project-grid">
-				<div class="project-card" onclick="gtag('event', 'click', {'event_category': 'service', 'event_label': 'Turntable'}); window.open('https://turntable.sawara.dev', '_blank')">
+				<div class="project-card" onclick="try { gtag('event', 'click', {'event_category': 'service', 'event_label': 'Turntable'}); } catch(e) {} window.open('https://turntable.sawara.dev', '_blank')">
 					<h3>Turntable</h3>
 					<video autoplay muted loop class="project-video">
 						<source src="/videos/turntable-demo-neko.mov" type="video/quicktime">
@@ -55,7 +55,7 @@ const graph_paper_background = '#F8F8F8';
 						Your browser does not support the video tag.
 					</video>
 				</div>
-				<div class="project-card" onclick="gtag('event', 'click', {'event_category': 'service', 'event_label': 'パチ文字メーカー'}); window.open('https://3dtext.sawara.dev', '_blank')">
+				<div class="project-card" onclick="try { gtag('event', 'click', {'event_category': 'service', 'event_label': 'パチ文字メーカー'}); } catch(e) {} window.open('https://3dtext.sawara.dev', '_blank')">
 					<h3>パチ文字メーカー</h3>
 					<video autoplay muted loop class="project-video">
 						<source src="/videos/3dtext.sawara.dev.mov" type="video/quicktime">
