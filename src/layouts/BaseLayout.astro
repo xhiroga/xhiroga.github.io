@@ -1,4 +1,6 @@
 ---
+import Footer from '../components/Footer.astro';
+
 export interface Props {
   title: string;
   description?: string;
@@ -28,5 +30,6 @@ const GA_MEASUREMENT_ID = 'G-7TJWTB90T5';
   </head>
   <body>
     <slot />
+    <Footer />
   </body>
 </html>

@@ -1,0 +1,71 @@
+---
+import Icon from './icons/Icon.astro';
+
+const graph_paper_green = '#3F7357';
+---
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="social-links">
+      <a href="https://github.com/xhiroga" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <Icon name="github" size={24} color={graph_paper_green} />
+      </a>
+      <a href="https://twitter.com/xhiroga" target="_blank" rel="noopener noreferrer" title="Twitter (X)">
+        <Icon name="twitter" size={24} color={graph_paper_green} />
+      </a>
+      <a href="https://bsky.app/profile/hiroga.bsky.social" target="_blank" rel="noopener noreferrer" title="Bluesky">
+        <Icon name="bluesky" size={24} color={graph_paper_green} />
+      </a>
+      <a href="https://discord.gg/7z9HqgR8Bd" target="_blank" rel="noopener noreferrer" title="Discord">
+        <Icon name="discord" size={24} color={graph_paper_green} />
+      </a>
+      <a href="https://linkedin.com/in/xhiroga" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <Icon name="linkedin" size={24} color={graph_paper_green} />
+      </a>
+      <a href="https://hiroga.booth.pm/" target="_blank" rel="noopener noreferrer" title="BOOTH">
+        <Icon name="booth" size={24} color={graph_paper_green} />
+      </a>
+      <a href="https://note.com/hiroga" target="_blank" rel="noopener noreferrer" title="note">
+        <Icon name="note" size={24} color={graph_paper_green} />
+      </a>
+    </div>
+    <p class="copyright">© 2025 Hiroaki Ogasawara</p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .social-links a {
+    text-decoration: none;
+    transition: transform 0.2s, opacity 0.2s;
+    display: inline-block;
+  }
+
+  .social-links a:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+
+  .copyright {
+    font-size: 0.9rem;
+    color: #666;
+  }
+</style>

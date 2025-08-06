@@ -1,6 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Icon from '../components/icons/Icon.astro';
 import '../styles/global.css';
+
+// Color constants
+const graph_paper_green = '#3F7357';
+const graph_paper_background = '#F8F8F8';
 ---
 
 <BaseLayout title="Portfolio - hiroga">
@@ -15,7 +20,7 @@ import '../styles/global.css';
 		</section>
 		
 		<section class="projects">
-			<h2>Projects</h2>
+			<h2>サービス / Services</h2>
 			<div class="project-grid">
 				<div class="project">
 					<h3>Turntable</h3>
@@ -33,7 +38,7 @@ import '../styles/global.css';
 		</section>
 		
 		<section class="presentations">
-			<h2>Presentations</h2>
+			<h2>発表 / Presentations</h2>
 			<div class="presentation-grid">
 				<div class="presentation">
 					<h3>LlamaGen: LlamaのNext-Token予測を使った画像生成</h3>
@@ -48,15 +53,45 @@ import '../styles/global.css';
 			</div>
 		</section>
 		
+		<section class="writings">
+			<h2>執筆 / Writings</h2>
+			<div class="writing-grid">
+				<div class="writing">
+					<h3>Auth0によるSaaS開発ガイド</h3>
+					<p>Auth0を使ったSaaS開発の実践的な解説書</p>
+					<a href="https://hiroga.booth.pm/items/4159703" target="_blank" rel="noopener noreferrer">BOOTHで見る →</a>
+				</div>
+				<div class="writing">
+					<h3>Amplify Console 実践入門</h3>
+					<p>AWS Amplify Consoleの実践的な入門書</p>
+					<a href="https://hiroga.booth.pm" target="_blank" rel="noopener noreferrer">BOOTHで見る →</a>
+				</div>
+				<div class="writing">
+					<h3>Cognito UserPool ユーザー移行入門</h3>
+					<p>既存システムからCognito UserPoolへの移行ガイド</p>
+					<a href="https://hiroga.booth.pm/items/1560273" target="_blank" rel="noopener noreferrer">BOOTHで見る →</a>
+				</div>
+			</div>
+		</section>
+		
 		<section class="contact">
-			<h2>Contact</h2>
-			<div class="contact-links">
-				<a href="https://github.com/xhiroga" target="_blank" rel="noopener noreferrer" title="GitHub">🐙</a>
-				<a href="https://twitter.com/xhiroga" target="_blank" rel="noopener noreferrer" title="Twitter (X)">🐦</a>
-				<a href="https://bsky.app/profile/xhiroga.bsky.social" target="_blank" rel="noopener noreferrer" title="Bluesky">🦋</a>
-				<a href="https://discord.com/users/xhiroga" target="_blank" rel="noopener noreferrer" title="Discord">💬</a>
-				<a href="https://linkedin.com/in/xhiroga" target="_blank" rel="noopener noreferrer" title="LinkedIn">💼</a>
-				<a href="https://booth.pm/ja/users/xhiroga" target="_blank" rel="noopener noreferrer" title="BOOTH">🛍️</a>
+			<h2>お問い合わせ / Contact</h2>
+			<div class="contact-methods">
+				<div class="contact-method">
+					<h3>メール / Email</h3>
+					<p>直接のご連絡はこちら</p>
+					<a href="mailto:hi@sawara.dev" class="contact-button">hi@sawara.dev</a>
+				</div>
+				<div class="contact-method">
+					<h3>フォーム / Form</h3>
+					<p>お気軽にお問い合わせください</p>
+					<a href="https://forms.google.com/your-form-url" target="_blank" rel="noopener noreferrer" class="contact-button">お問い合わせフォーム</a>
+				</div>
+				<div class="contact-method">
+					<h3>日程調整 / Schedule</h3>
+					<p>ミーティングの予約はこちら</p>
+					<a href="https://calendly.com/your-calendly-url" target="_blank" rel="noopener noreferrer" class="contact-button">日程を調整する</a>
+				</div>
 			</div>
 		</section>
 	</main>
