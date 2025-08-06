@@ -7,18 +7,64 @@ export interface Props {
   description?: string;
 }
 
-const { title, description = 'xhiroga\'s portfolio' } = Astro.props;
+const { title, description = '3DCG・機械学習・Webを専門とするソフトウェアエンジニア・さわら(Hiroaki Ogasawara)のポートフォリオサイト' } = Astro.props;
 const GA_MEASUREMENT_ID = 'G-7TJWTB90T5';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/logo.png" />
     <title>{title}</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="author" content="Hiroaki Ogasawara" />
+    <meta name="keywords" content="ソフトウェアエンジニア,3DCG,機械学習,Web開発,独立エンジニア,Three.js,PyTorch,AWS,アニメ,ゲーム" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://sawara.dev" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sawara.dev" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="https://sawara.dev/logo.png" />
+    <meta property="og:locale" content="ja_JP" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://sawara.dev" />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content="https://sawara.dev/logo.png" />
+    <meta property="twitter:creator" content="@xhiroga" />
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Hiroaki Ogasawara",
+      "alternateName": "さわら",
+      "url": "https://sawara.dev",
+      "image": "https://sawara.dev/logo.png",
+      "jobTitle": "Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "knowsAbout": ["3DCG", "Machine Learning", "Web Development", "Three.js", "PyTorch", "AWS"],
+      "sameAs": [
+        "https://github.com/xhiroga",
+        "https://twitter.com/xhiroga",
+        "https://linkedin.com/in/hiroga",
+        "https://note.com/hiroga"
+      ]
+    }
+    </script>
     
     <!-- Google Analytics -->
     <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>

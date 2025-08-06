@@ -1,0 +1,40 @@
+# さわら (Hiroaki Ogasawara) - Portfolio
+
+> 3DCG・機械学習・Webを専門とするソフトウェアエンジニア。保険スタートアップを経て2024年に独立。アニメ・ゲームなどエンターテイメント領域の制作効率化に強い関心がある。
+
+## Profile
+- **Name**: Hiroaki Ogasawara (さわら)
+- **Location**: Japan
+- **Status**: Freelance Software Engineer (2024~)
+- **Experience**: 10+ years in system development
+
+## Services
+- [Turntable](https://turntable.sawara.dev): 3D visualization tool
+- [パチ文字メーカー](https://3dtext.sawara.dev): 3D text generator
+
+## Skills
+- **3DCG・Visualization**: Three.js, WebGL, 3Dモデリング
+- **Machine Learning・AI**: PyTorch, Transformers, 画像生成
+- **Infrastructure**: AWS, Terraform, Kubernetes, Auth0
+
+## Presentations
+- LlamaGen: LlamaのNext-Token予測を使った画像生成 (松尾研 LLM コミュニティ)
+- DeepSeek Janusのアーキテクチャ (松尾研 LLM コミュニティ)
+
+## Publications
+- Auth0によるSaaS開発ガイド
+- Amplify Console 実践入門
+- Cognito UserPool ユーザー移行入門
+
+## Social Links
+- [GitHub](https://github.com/xhiroga)
+- [Twitter](https://twitter.com/xhiroga)
+- [Bluesky](https://bsky.app/profile/hiroga.bsky.social)
+- [LinkedIn](https://www.linkedin.com/in/hiroga/)
+- [note](https://note.com/hiroga)
+- [BOOTH](https://hiroga.booth.pm/)
+
+## Contact
+- Email: contact@sawara.dev
+- Form: https://forms.gle/GFqgWEg6xTen1E7WA
+- Schedule: https://calendar.app.google/7qo7tu5V52TEsC5q6

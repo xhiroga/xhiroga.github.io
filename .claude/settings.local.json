@@ -9,7 +9,8 @@
       "Bash(dig:*)",
       "Bash(curl:*)",
       "WebFetch(domain:www.simonstalenhag.se)",
-      "WebFetch(domain:www.artstation.com)"
+      "WebFetch(domain:www.artstation.com)",
+      "WebFetch(domain:zenn.dev)"
     ],
     "deny": []
   }
