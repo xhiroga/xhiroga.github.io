@@ -35,10 +35,23 @@ body {
   cursor: pointer;
 }
 
+.name-group {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
 .hero h1 {
   font-size: 3rem;
   margin: 0;
   color: #333;
+}
+
+.name-en {
+  font-size: 0.8rem;
+  color: #666;
+  font-weight: 300;
+  margin-bottom: 0.2rem;
 }
 
 /* About Section */
@@ -192,15 +205,15 @@ body {
 /* Contact Section */
 .contact-methods {
   display: flex;
-  flex-direction: column;
   gap: 2rem;
   margin-top: 1.5rem;
-  max-width: 800px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .contact-method {
+  flex: 1;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 1.5rem;
@@ -271,6 +284,16 @@ section:not(:last-child)::after {
     gap: 1rem;
   }
   
+  .name-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .name-en {
+    margin-bottom: 0;
+  }
+  
   .logo-video {
     width: 48px;
     height: 48px;
@@ -288,5 +311,9 @@ section:not(:last-child)::after {
   
   .contact-links {
     justify-content: center;
+  }
+  
+  .contact-methods {
+    flex-direction: column;
   }
 }
