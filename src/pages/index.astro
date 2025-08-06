@@ -47,7 +47,7 @@ const graph_paper_background = '#F8F8F8';
 		<section class="projects">
 			<h2>サービス / Services</h2>
 			<div class="project-grid">
-				<div class="project-card" onclick="window.open('https://turntable.sawara.dev', '_blank')">
+				<div class="project-card" onclick="gtag('event', 'click', {'event_category': 'service', 'event_label': 'Turntable'}); window.open('https://turntable.sawara.dev', '_blank')">
 					<h3>Turntable</h3>
 					<video autoplay muted loop class="project-video">
 						<source src="/videos/turntable-demo-neko.mov" type="video/quicktime">
@@ -55,7 +55,7 @@ const graph_paper_background = '#F8F8F8';
 						Your browser does not support the video tag.
 					</video>
 				</div>
-				<div class="project-card" onclick="window.open('https://3dtext.sawara.dev', '_blank')">
+				<div class="project-card" onclick="gtag('event', 'click', {'event_category': 'service', 'event_label': 'パチ文字メーカー'}); window.open('https://3dtext.sawara.dev', '_blank')">
 					<h3>パチ文字メーカー</h3>
 					<video autoplay muted loop class="project-video">
 						<source src="/videos/3dtext.sawara.dev.mov" type="video/quicktime">
@@ -88,17 +88,17 @@ const graph_paper_background = '#F8F8F8';
 				<div class="writing">
 					<h3>Auth0によるSaaS開発ガイド</h3>
 					<p>Auth0を使ったSaaS開発の実践的な解説書</p>
-					<a href="https://hiroga.booth.pm/items/4159703" target="_blank" rel="noopener noreferrer">BOOTHで見る →</a>
+					<a href="https://hiroga.booth.pm/items/4159703" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {'event_category': 'writing', 'event_label': 'Auth0によるSaaS開発ガイド'})">BOOTHで見る →</a>
 				</div>
 				<div class="writing">
 					<h3>Amplify Console 実践入門</h3>
 					<p>AWS Amplify Consoleの実践的な入門書</p>
-					<a href="https://hiroga.booth.pm" target="_blank" rel="noopener noreferrer">BOOTHで見る →</a>
+					<a href="https://hiroga.booth.pm" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {'event_category': 'writing', 'event_label': 'Amplify Console 実践入門'})">BOOTHで見る →</a>
 				</div>
 				<div class="writing">
 					<h3>Cognito UserPool ユーザー移行入門</h3>
 					<p>既存システムからCognito UserPoolへの移行ガイド</p>
-					<a href="https://hiroga.booth.pm/items/1560273" target="_blank" rel="noopener noreferrer">BOOTHで見る →</a>
+					<a href="https://hiroga.booth.pm/items/1560273" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {'event_category': 'writing', 'event_label': 'Cognito UserPool ユーザー移行入門'})">BOOTHで見る →</a>
 				</div>
 			</div>
 		</section>
@@ -109,17 +109,17 @@ const graph_paper_background = '#F8F8F8';
 				<div class="contact-method">
 					<h3>メール / Email</h3>
 					<p>直接のご連絡はこちら</p>
-					<a href="mailto:hi@sawara.dev" class="contact-button">hi@sawara.dev</a>
+					<a href="mailto:hi@sawara.dev" class="contact-button" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'email'})">hi@sawara.dev</a>
 				</div>
 				<div class="contact-method">
 					<h3>フォーム / Form</h3>
 					<p>お気軽にお問い合わせください</p>
-					<a href="https://forms.google.com/your-form-url" target="_blank" rel="noopener noreferrer" class="contact-button">お問い合わせフォーム</a>
+					<a href="https://forms.google.com/your-form-url" target="_blank" rel="noopener noreferrer" class="contact-button" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'form'})">お問い合わせフォーム</a>
 				</div>
 				<div class="contact-method">
 					<h3>日程調整 / Schedule</h3>
 					<p>ミーティングの予約はこちら</p>
-					<a href="https://calendly.com/your-calendly-url" target="_blank" rel="noopener noreferrer" class="contact-button">日程を調整する</a>
+					<a href="https://calendly.com/your-calendly-url" target="_blank" rel="noopener noreferrer" class="contact-button" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'schedule'})">日程を調整する</a>
 				</div>
 			</div>
 		</section>
