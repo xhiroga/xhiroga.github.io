@@ -28,11 +28,12 @@
 
 ## Social Links
 - [GitHub](https://github.com/xhiroga)
-- [Twitter](https://twitter.com/xhiroga)
 - [Bluesky](https://bsky.app/profile/hiroga.bsky.social)
+- [BOOTH](https://hiroga.booth.pm/)
+- [Hugging Face](https://huggingface.co/xhiroga)
 - [LinkedIn](https://www.linkedin.com/in/hiroga/)
 - [note](https://note.com/hiroga)
-- [BOOTH](https://hiroga.booth.pm/)
+- [Twitter](https://twitter.com/xhiroga)
 
 ## Contact
 - Email: contact@sawara.dev
