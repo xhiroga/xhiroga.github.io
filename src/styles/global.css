@@ -84,15 +84,19 @@ body {
 .project a, .writing a {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #0066cc;
-  color: white;
+  background-color: white;
+  color: #3F7357;
   text-decoration: none;
+  border: 2px solid #3F7357;
   border-radius: 4px;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
 }
 
 .project a:hover, .writing a:hover {
-  background-color: #0052a3;
+  background-color: #3F7357;
+  color: white;
   text-decoration: none;
 }
 
