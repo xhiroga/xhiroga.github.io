@@ -10,7 +10,7 @@
 
 ## Services
 - [Turntable](https://turntable.sawara.dev): 3D visualization tool
-- [パチ文字メーカー](https://3dtext.sawara.dev): 3D text generator
+- [パチ文字メーカー](https://pachimoji.sawara.dev): 3D text generator
 
 ## Skills
 - **3DCG・Visualization**: Three.js, WebGL, 3Dモデリング
