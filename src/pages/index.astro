@@ -36,6 +36,14 @@ const graph_paper_background = '#F8F8F8';
 		<section class="projects">
 			<h2>サービス / Services</h2>
 			<div class="project-grid">
+				<div class="project-card" onclick="try { gtag('event', 'click', {'event_category': 'service', 'event_label': 'Impostor'}); } catch(e) {} window.open('https://impostor.sawara.dev', '_blank')">
+					<h3>Impostor</h3>
+					<video autoplay muted loop class="project-video">
+						<source src="/videos/impostor-sawara-dev.mov" type="video/quicktime">
+						<source src="/videos/impostor-sawara-dev.mov" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
 				<div class="project-card" onclick="try { gtag('event', 'click', {'event_category': 'service', 'event_label': 'Turntable'}); } catch(e) {} window.open('https://turntable.sawara.dev', '_blank')">
 					<h3>Turntable</h3>
 					<video autoplay muted loop class="project-video">
@@ -58,6 +66,11 @@ const graph_paper_background = '#F8F8F8';
 		<section class="presentations">
 			<h2>発表 / Presentations</h2>
 			<div class="presentation-grid">
+				<div class="presentation">
+					<h3>LLMが読唇術？視覚音声認識最前線</h3>
+					<p>松尾研 LLM コミュニティ "Paper &amp; Hacks Vol.62"</p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/56MKz5POo_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
 				<div class="presentation">
 					<h3>LlamaGen: LlamaのNext-Token予測を使った画像生成</h3>
 					<p>松尾研 LLM コミュニティ "Paper & Hacks Vol.28"</p>
